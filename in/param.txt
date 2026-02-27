@@ -1,0 +1,28 @@
+# POTENTIAL PARAMETERS 
+# Plummer potential
+eta   = 1.0
+kappa = 0.5
+
+# INITIAL CONDITIONS OF THE TEST PARTICLE
+x  = 2.7026986817293069e-01
+y  = 0.0
+z  = 0.0
+vx = 6.2578103074283098e-01
+vy = 8.3068476443790701e-02
+vz = 0.0
+
+# INTEGRATION PARAMETERS
+# start time
+ti = 0.0
+# end time
+tf = 30.0
+# time step
+Dt = 1.0e-3
+
+# save data every Nsave steps
+Nsave = 10
+
+# ISOCHRONE SPLITTING PARAMETERS
+mu = 1.3899376494521298
+b  = 0.3472686315022478
+
