@@ -32,7 +32,7 @@
 !  Copyright (c) 2026 Alexandre Bougakov
 !==================================================================
 
-program run_IsochroneSplitting_QuickExample
+program run_IsochroneSymplecticIntegrator_QuickExample
   
   use MathConstant
   use Isochrone
@@ -216,4 +216,4 @@ contains
 
   end subroutine SetParam
   !---------------------------------------------------------------------------------------------
-end program run_IsochroneSplitting_QuickExample
+end program run_IsochroneSymplecticIntegrator_QuickExample
