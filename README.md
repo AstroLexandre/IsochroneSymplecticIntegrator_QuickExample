@@ -5,6 +5,7 @@ The code can be readily adapted for projects requiring integration into more com
 
 ## Key File
 - `IsochronePropagator.f90` - Implements the analytical isochrone propagator.
+- `KeplerEquation.f90` - Implements a solver for Kepler's equation.
 
 ## Installation 
 Make sure your computer has the `gfortran` compiler installed.
