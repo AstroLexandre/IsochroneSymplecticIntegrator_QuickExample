@@ -85,7 +85,7 @@ program run_IsochroneSymplecticIntegrator_QuickExample
   ! b = 0.5_prc
   !----------------------
 
-  if(abs(mu) < epsilon(1.0_prc)) then
+  if(mu < epsilon(1.0_prc)) then
     mu = 0.0_prc
     write(0,*) "WARNING: mu = 0 assumed."
   end if
