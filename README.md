@@ -4,8 +4,9 @@ The program provides a simple demonstration of how to use the isochrone propagat
 The code can be readily adapted for projects requiring integration into more complex potentials or the use of higher-order symplectic integrators.
 
 ## Key File
-- `IsochronePropagator.f90` - Implements the analytical isochrone propagator.
-- `KeplerEquation.f90` - Implements a solver for Kepler's equation.
+- `IsochronePropagator.f90` implements the analytical isochrone propagator.
+- `KeplerEquation.f90` implements a solver for Kepler's equation.
+- `SymplecticIntegrator.f90` contains the implementation of the 'Leapfrog' symplectic integration scheme, a second-order method commonly used in Hamiltonian dynamics.
 
 ## Installation 
 Make sure your computer has the `gfortran` compiler installed.
