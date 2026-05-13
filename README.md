@@ -1,5 +1,5 @@
 # IsochroneSymplecticIntegrator_QuickExample
-The program provides a simple demonstration of how to use the isochrone propagator within a symplectic integrator, offering an intuitive and pedagogical introduction to the [isochrone splitting](https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.106B/abstract). As an illustrative example, it computes the motion of a test particle evolving in a Plummer potential. The symplectic scheme implemented is the ‘Leapfrog’ (a second-order symplectic scheme commonly used in Hamiltonian dynamics). 
+The program provides a simple demonstration of how to use the isochrone propagator within a symplectic integrator, offering an intuitive and pedagogical introduction to the [isochrone splitting](https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.106B/abstract). As an illustrative example, it computes the motion of a test particle evolving in a Plummer potential. The symplectic scheme implemented is the ‘Leapfrog’ (a second-order symplectic scheme commonly used in Hamiltonian dynamics).
 
 The code can be readily adapted for projects requiring integration into more complex potentials or the use of higher-order symplectic integrators.
 
@@ -10,7 +10,7 @@ The code can be readily adapted for projects requiring integration into more com
 ## Installation 
 Make sure your computer has the `gfortran` compiler installed.
 Then, download this project and run `make` in the directory containing the `Makefile` to compile it.
-Before running the compilation, make sure to create the obj, mod, and out directories if they do not already exist using: `mkdir obj mod out`.
+Before running the compilation, create the required directories if they do not exist: `mkdir obj mod out`.
 
 No additional packages are needed.
 
@@ -32,7 +32,9 @@ If you encounter a bug, please let me know.
 Distributed under the **MIT License**. See `LICENSE.txt` for more details.
 
 # Attribution
-This example is meant for educational purposes, but you are free to reuse, modify, or incorporate it into your own projects, provided that proper credit is given. Please cite the following DOI: [10.1051/0004-6361/202553886](https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.106B/exportcitation).
+This example is meant for educational purposes, but you are free to reuse, modify, or incorporate it into your own projects, provided that proper credit is given.
+
+Please cite the following references: DOI [10.1051/0004-6361/202553886](https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.106B/exportcitation) and Bibcode [2026ascl.soft04002B](https://ui.adsabs.harvard.edu/abs/2026ascl.soft04002B/exportcitation).
 
 # Contact
 Email: Alexandre.Bougakov@obspm.fr
