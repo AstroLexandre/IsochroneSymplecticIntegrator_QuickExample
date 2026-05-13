@@ -1,5 +1,5 @@
 # IsochroneSymplecticIntegrator_QuickExample
-The program provides a simple demonstration of how to use the isochrone propagator within a symplectic integrator, offering an intuitive and pedagogical introduction to the [isochrone splitting](https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.106B/abstract). As an illustrative example, it computes the motion of a test particle evolving in a Plummer potential. The symplectic scheme implemented is the ‘Leapfrog’ (a second-order symplectic scheme commonly used in Hamiltonian dynamics).
+The program provides a simple demonstration of how to use the isochrone propagator within a symplectic integrator, offering an intuitive and pedagogical introduction to the [isochrone splitting](https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.106B/abstract). As an illustrative example, it computes the motion of a test particle evolving in a Plummer potential.
 
 The code can be readily adapted for projects requiring integration into more complex potentials or the use of higher-order symplectic integrators.
 
