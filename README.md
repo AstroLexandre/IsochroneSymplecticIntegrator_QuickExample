@@ -29,13 +29,13 @@ Feel free to send me an email if you have any ideas to improve the speed or redu
 
 If you encounter a bug, please let me know.
 
-# License
-Distributed under the **MIT License**. See `LICENSE.txt` for more details.
-
 # Attribution
 This example is meant for educational purposes, but you are free to reuse, modify, or incorporate it into your own projects, provided that proper credit is given.
 
 Please cite the following references: DOI [10.1051/0004-6361/202553886](https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.106B/exportcitation) and Bibcode [2026ascl.soft04002B](https://ui.adsabs.harvard.edu/abs/2026ascl.soft04002B/exportcitation).
+
+# License
+Distributed under the **MIT License**. See `LICENSE.txt` for more details.
 
 # Contact
 Email: Alexandre.Bougakov@obspm.fr
