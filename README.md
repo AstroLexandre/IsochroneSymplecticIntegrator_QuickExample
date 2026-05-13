@@ -10,6 +10,7 @@ The code can be readily adapted for projects requiring integration into more com
 ## Installation 
 Make sure your computer has the `gfortran` compiler installed.
 Then, download this project and run `make` in the directory containing the `Makefile` to compile it.
+Before running the compilation, make sure to create the obj, mod, and out directories if they do not already exist using: `mkdir obj mod out`.
 
 No additional packages are needed.
 
